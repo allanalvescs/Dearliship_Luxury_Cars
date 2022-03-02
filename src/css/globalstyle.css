@@ -1,0 +1,24 @@
+body,div,header,main,footer,h2,p
+,figure,button{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+/* CSS VARIABLE */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Inter:wght@200;500&family=Montserrat&family=Open+Sans:ital,wght@0,300;1,300;1,500&family=Oswald:wght@200;300;600&family=Outfit:wght@100;300;900&family=Readex+Pro:wght@500&family=Yuji+Boku&family=Yuji+Mai&display=swap');
+
+:root{
+    font-size: 8px;
+    font-family: 'Open Sans', sans-serif;
+    --color-gradiente: #5c5a5a;
+    --color-highlight: #2A8EEA;
+    --background-page: #EBEAEA;
+}
+/* CSS VARIABLE */
+
+body{
+    height: 100vh;
+}
+
