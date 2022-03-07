@@ -125,6 +125,9 @@ header{
 .ico_menu{
     text-align: end;
 }
+
+
+.main_menu ul{display: none;}
 /* HEADER */
 
 /* MEDIA QUERIE */
@@ -146,9 +149,13 @@ header{
         display: flex;
         justify-content: space-around;
         align-items: center;
+        flex-direction: row-reverse;
     }
     .box_profile{
         margin: 0 3%;
+    }
+    .ico_menu{
+        display: none;
     }
     .main_menu ul{
         display: flex;
