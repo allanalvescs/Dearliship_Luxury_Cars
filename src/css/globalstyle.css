@@ -1,6 +1,6 @@
 /* RESET */
-body,div,header,main,footer,h2,p
-,figure,button,nav,ul{
+body,div,header,main,footer,h1,h2,
+h3,p,figure,button,nav,ul{
     margin: 0;
     padding: 0;
     border: none;
@@ -9,6 +9,10 @@ body,div,header,main,footer,h2,p
 
 ul{
     list-style: none;
+}
+
+a{
+    text-decoration: none;
 }
 /* RESET */
 .remove{
@@ -29,5 +33,14 @@ ul{
 
 body{
     height: 100vh;
+    background-color: var(--background-page);
 }
 
+@keyframes moveSide {
+    from{
+        margin-left: 0;
+    }
+    to{
+        margin-left: -338px;
+    }
+}
