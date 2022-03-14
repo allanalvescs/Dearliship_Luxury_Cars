@@ -118,7 +118,7 @@ const dearlishipCars = [
     },
     {
         "name": 'Mercedes amg gt',
-        "image": './src/img/imgPage/mercedesamggt.png',
+        "image": './src/img/imgPage/Mercedes.png',
         "imageCar": './src/img/imgCar/mercedesamggt.png',
         "brand": 'Mercedes',
         "price": 85000,

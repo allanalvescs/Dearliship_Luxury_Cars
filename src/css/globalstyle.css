@@ -36,11 +36,24 @@ body{
     background-color: var(--background-page);
 }
 
-@keyframes moveSide {
+@keyframes showUp {
     from{
-        margin-left: 0;
+        width: 0;
+        height: 0;
     }
     to{
-        margin-left: -338px;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@keyframes showUpMenu {
+    from{
+        width: 0;
+        height: 0;
+    }
+    to{
+        width: 100%;
+        height: 123px;
     }
 }
