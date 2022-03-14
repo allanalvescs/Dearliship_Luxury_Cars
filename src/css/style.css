@@ -219,10 +219,12 @@ main{
     display: flex;
     align-items: center;
 }
+
 .infor{
  overflow-y: scroll;  
  height: 45px; 
 }
+
 .infor li{
     display: flex;
     align-items: center;
@@ -279,11 +281,20 @@ main{
     font-size: 2rem;
 }
 
+.container_list{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    margin: 30px auto;
+}
+.arrow_lists{
+    display: none;
+}
 .sectionCars ul{
     display: flex;
-    overflow-x: hidden;
-    width: 90%;
-    margin: 50px auto;
+    overflow-x: scroll;
+    width: 100%;
 }
 .sectionCars ul li{
     margin-right: 15px;
@@ -510,6 +521,24 @@ footer{
    .box_buttons{
         width: 30%;
     }
+    .arrow_lists{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+    }
+    .arrow_lists img{
+        width: 25px;
+    }
+    .arrow_lists .right{
+        transform: rotate(180deg);
+    }
+    .sectionCars ul{
+        width: 75%;
+    }
    /*  MAIN */
  }
  @media screen and (min-width: 1052px){
@@ -547,13 +576,12 @@ footer{
     }
     .box_inforCars .description{
         margin: 0px auto;
-        text-align: center;
     }
     .description p{
-       font-size: 2.5rem;
+       font-size: 1.9rem;
     }
     .description span{
-       font-size: 2.1rem;
+       font-size: 1.8rem;
     }
     
  }
