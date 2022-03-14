@@ -455,14 +455,16 @@ footer{
    }
    .main_menu .menu_desktop{
        display: flex;
-       width: 450px;
+       width: 50%;
        justify-content: space-around;
+       align-items: center;
    }
    .main_menu ul li{
        font-size: 2rem;
        font-weight: bold;
        padding: 5px;
        border-radius: 10px;
+       text-align: center;
    }
    .main_menu ul li:hover{
        cursor: pointer;
